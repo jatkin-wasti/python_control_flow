@@ -47,4 +47,4 @@ elif requested_movie == "PG":
     else:
         print("Unfortunately you are not old enough to watch this movie")
 else:
-    print("You can watch this movie!")
+    print("You can watch this movie!")  # everyone can watch a Universal film
