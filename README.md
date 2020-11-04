@@ -20,6 +20,16 @@ elif condition:
 else:
     do_this
 ```
+- Used to run code if none of the conditional statements have been met
+- Useful for encapsulating "everything else" conditions i.e. 
+```
+if name == "Bob":
+    do_this
+else:
+    do_this_instead
+```
+- In this example the else statement covers all other possibilities. If the string contains anything that isn't "Bob" 
+then we've covered that input with an else statement regardless of what exactly was input
 ## For loops and While loops
 - ```break``` will stop the loop
 - ```continue``` will immediately start the next iteration of the loop
